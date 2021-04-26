@@ -4,7 +4,7 @@
       <div class="col">
         <blockquote class="blockquote">
           <h2 class="mb-0">Sign In</h2>
-          <footer class="blockquote-footer">Or create and account</footer>
+          <footer class="blockquote-footer"><router-link to="/sign-up">Or create and account</router-link></footer>
         </blockquote>
         <div class="input-group d-flex justify-content-center">
           <!--h1>Sign In</h1>

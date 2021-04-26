@@ -2,20 +2,25 @@ import * as Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Login from './views/Login.vue'
+import SignUp from './views/SignUp.vue'
 
-Vue.Vue.use(Router);
-
+Vue.Vue.use(Router)
 export default new Router({
     routes: [
         {
-            path: '/'
-            name: 'home'
+            path: '/',
+            name: 'home',
             component: Home
         },
         {
             path: '/login',
             name: 'Login',
             component: Login
+        },
+        {
+            path: '/sign-up',
+            name: 'SignUp',
+            component: SignUp
         }
     ]
 })
